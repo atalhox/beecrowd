@@ -1,6 +1,3 @@
-const { isNumber } = require('util');
-const { isNumberObject } = require('util/types');
-
 var input = require('fs').readFileSync('/dev/stdin', 'utf8');
 var lines = input.split('\n');
 
